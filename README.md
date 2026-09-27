@@ -25,6 +25,20 @@ A Spring Boot based Employee Management System REST API.
 - Global Exception Handling
 - Validation
 
+ ## API Endpoints
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/employees` | Get all employees |
+| POST | `/employees` | Create a new employee |
+| GET | `/employees/{id}` | Get employee by ID |
+| PUT | `/employees/{id}` | Update employee |
+| DELETE | `/employees/{id}` | Delete employee |
+| GET | `/employees/name/{name}` | Search employee by name |
+| GET | `/employees/department/{department}` | Search employees by department |
+| GET | `/employees/salary` | Search employees by salary range |
+| GET | `/employees/sort/salary` | Sort employees by salary |
+| GET | `/employees/page` | Get employees with pagination |
+
 ## API Documentation
 Swagger UI is used for testing and documenting REST APIs.
 
